@@ -1,0 +1,20 @@
+<?xml version="1.0"?> 
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_0.dtd">
+<Configure id="wac" class="org.eclipse.jetty.webapp.WebAppContext">
+    
+    <!-- create emf -->
+    <Call id="pool1EMF" class="javax.persistence.Persistence" name="createEntityManagerFactory">
+        <Arg>pool1PU</Arg>
+    </Call>
+    <!-- bind to JNDI -->
+    <New id="myds" class="org.eclipse.jetty.plus.jndi.EnvEntry">
+        <Arg>
+            <Ref refid="wac"/>
+        </Arg>
+        <Arg>jdbc/pool1PU</Arg>
+        <Arg>
+            <Ref refid="pool1EMF"/>
+        </Arg>
+        <Arg type="boolean">true</Arg>
+    </New>
+</Configure>

@@ -1,0 +1,2126 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*$blue :  #2f4d81;
+$blue :  #094A6E;*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+/* line 5, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/jaxenter/header.scss */
+header .topnav {
+  height: 60px;
+  line-height: 60px;
+  background: #244977;
+  padding: 0px 0 0 0;
+  		/*
+  		.search {
+  			.search-wrapper {
+  				$width: 400px;
+  				$heightInput: 40px;
+  
+  				float: right;
+  				width: $width;
+  				margin-top: 20px;
+  				
+  				@include breakpoint(515) {
+  					width: auto;
+  				}
+  
+  				input {
+  					display: block;
+  					float: left;
+  					width: $width - $heightInput;					
+  					height: $heightInput;
+  					padding: 0 10px;
+  					border: 0;
+  					border-top-left-radius: 3px;
+  					border-bottom-left-radius: 3px;
+  					font-size: 18px;
+  					font-weight: 300;
+  					
+  					$shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  					-webkit-box-shadow: $shadow;
+  					-moz-box-shadow: $shadow;
+  					box-shadow: $shadow;
+  					
+  					@include breakpoint(515) {
+  						width: auto;
+  					}
+  				}
+  			
+  				.btn-search {
+  					display: block;
+  					width: $heightInput;
+  					height: $heightInput;
+  					line-height: $heightInput;
+  					margin: 0;
+  					padding: 0;
+  					background: $blueHighlighted;
+  					border: 0;
+  					border-top-right-radius: 3px;
+  					border-bottom-right-radius: 3px;
+  					
+  					$shadow: inset -2px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  					-webkit-box-shadow: $shadow;
+  					-moz-box-shadow: $shadow;
+  					box-shadow: $shadow;
+  				
+  					&, span.icon {
+  						font-size: 18px;
+  						color: #fff;
+  					}
+  				}
+  				
+  				@include breakpoint(1200) {
+  					width: 200px;
+  
+  					input {
+  						width: 160px;
+  					}
+  				}
+  			}
+  		}*/
+}
+/* line 9, ../sass/jaxenter/header.scss */
+header .topnav ul.menu {
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+}
+/* line 13, ../sass/jaxenter/header.scss */
+header .topnav ul.menu > li {
+  position: relative;
+  z-index: 1000;
+  float: left;
+  line-height: 70px;
+  margin-right: 1px;
+  height: 60px;
+}
+/* line 21, ../sass/jaxenter/header.scss */
+header .topnav ul.menu > li > a {
+  /*display: block;
+  height: $height;
+  line-height: $height;
+  background: rgba(255,255,255,0.1);*/
+  padding: 0 20px;
+  font-size: 16px;
+  color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 21, ../sass/jaxenter/header.scss */
+  header .topnav ul.menu > li > a {
+    padding: 0 8px;
+    font-size: 14px;
+  }
+}
+/* line 36, ../sass/jaxenter/header.scss */
+header .topnav ul.menu > li:last-child {
+  margin-right: 0;
+}
+/* line 40, ../sass/jaxenter/header.scss */
+header .topnav ul.menu > li ul.sub-menu {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  top: 60px;
+  left: 0;
+  width: 200px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+/* line 52, ../sass/jaxenter/header.scss */
+header .topnav ul.menu > li ul.sub-menu > li {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* line 59, ../sass/jaxenter/header.scss */
+header .topnav ul.menu > li ul.sub-menu > li, header .topnav ul.menu > li ul.sub-menu > li a {
+  font-size: 16px;
+  color: #244977;
+}
+/* line 66, ../sass/jaxenter/header.scss */
+header .topnav ul.menu > li ul.sub-menu:before {
+  content: ' ';
+  position: absolute;
+  top: -5px;
+  left: 14.5px;
+  width: 0;
+  height: 0;
+  margin-top: 0;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 11px solid #435e8c;
+}
+/* line 81, ../sass/jaxenter/header.scss */
+header .topnav ul.menu > li:hover ul.sub-menu {
+  display: block;
+}
+/* line 155, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper {
+  margin-top: 23px;
+  padding-right: 0px;
+}
+/* line 159, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper .search-label {
+  -webkit-transition: all 0.1s linear 0;
+  transition: all 0.1s linear 0;
+  opacity: 1.0;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 15px;
+  /*font-family: $navFont;*/
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 170, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper .search-label:hover {
+  cursor: pointer;
+}
+/* line 175, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper .search-form {
+  -webkit-transition: all 0.2s linear 0.3s;
+  transition: all 0.2s linear 0.3s;
+  position: relative;
+  width: 30px;
+  height: 25px;
+  background: #fff;
+}
+/* line 183, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper .search-form .search-button {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 1.0;
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: 0;
+  color: #8196a8;
+  text-align: center;
+}
+/* line 196, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper .search-form .search-button:focus {
+  outline: none;
+}
+/* line 201, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper .search-form .search-input {
+  -webkit-transition: all 0.2s linear 0.3s;
+  transition: all 0.2s linear 0.3s;
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.0;
+  width: 1px;
+  height: 25px;
+  line-height: 25px;
+  padding: 3px;
+  border: 0;
+  font-size: 13px;
+  font-weight: 300;
+}
+/* line 216, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper .search-form .search-input:focus {
+  outline: none;
+}
+/* line 225, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper.active .search-label {
+  opacity: 0.0;
+  padding-right: 15px;
+}
+/* line 230, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper.active .search-form {
+  width: 170px;
+  background: #fff;
+}
+/* line 234, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper.active .search-form .search-button {
+  opacity: 0.0;
+}
+/* line 238, ../sass/jaxenter/header.scss */
+header .topnav .search-wrapper.active .search-form .search-input {
+  opacity: 1.0;
+  width: 170px;
+}
+@media only screen and (max-width: 480px) {
+  /* line 155, ../sass/jaxenter/header.scss */
+  header .topnav .search-wrapper {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 253, ../sass/jaxenter/header.scss */
+  header header .topnav .search-wrapper.active {
+    position: absolute;
+    margin-top: 25px;
+    right: 10px;
+  }
+}
+/* line 261, ../sass/jaxenter/header.scss */
+header .topics {
+  background-color: #666;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+@media only screen and (max-width: 991px) {
+  /* line 261, ../sass/jaxenter/header.scss */
+  header .topics {
+    display: none;
+  }
+}
+/* line 270, ../sass/jaxenter/header.scss */
+header .topics .row .col-lg-12 {
+  line-height: 40px;
+}
+/* line 279, ../sass/jaxenter/header.scss */
+header .topics span.highlighted {
+  margin-right: 10px;
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase;
+}
+/* line 286, ../sass/jaxenter/header.scss */
+header .topics ul {
+  display: inline;
+}
+/* line 289, ../sass/jaxenter/header.scss */
+header .topics ul li {
+  display: inline;
+  margin-right: 10px;
+  line-height: 2.5em;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 289, ../sass/jaxenter/header.scss */
+  header .topics ul li {
+    padding: 0px;
+    font-size: 14px;
+  }
+}
+/* line 297, ../sass/jaxenter/header.scss */
+header .topics ul li:last-child {
+  margin-right: 0;
+}
+/* line 301, ../sass/jaxenter/header.scss */
+header .topics ul li a {
+  display: inline-block;
+  color: #fff;
+}
+/* line 305, ../sass/jaxenter/header.scss */
+header .topics ul li::before {
+  content: "#";
+}
+/* line 312, ../sass/jaxenter/header.scss */
+header .topics .social {
+  padding: 6px 0px 0;
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  /* line 312, ../sass/jaxenter/header.scss */
+  header .topics .social {
+    padding-bottom: 11px;
+    text-align: center;
+  }
+}
+/* line 321, ../sass/jaxenter/header.scss */
+header .topics .social .icon-social-rss,
+header .topics .social .icon-social-facebook,
+header .topics .social .icon-social-twitter,
+header .topics .social .icon-social-vimeo {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  background: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+/* line 334, ../sass/jaxenter/header.scss */
+header .topics .social .icon-social-facebook {
+  background: url("../../images/icon-social-facebook.jpg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+/* line 340, ../sass/jaxenter/header.scss */
+header .topics .social .icon-social-twitter {
+  background: url("../../images/icon-social-twitter.jpg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+/* line 346, ../sass/jaxenter/header.scss */
+header .topics .social .icon-social-vimeo {
+  background: url("../../images/icon-social-vimeo.jpg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+/* line 352, ../sass/jaxenter/header.scss */
+header .topics .social .icon-social-rss {
+  background: url("../../images/icon-social-rss.jpg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+/* line 360, ../sass/jaxenter/header.scss */
+header .logo-wrapper {
+  min-height: 50px;
+}
+/* line 362, ../sass/jaxenter/header.scss */
+header .logo-wrapper a.logo {
+  display: block;
+  width: 185px;
+  height: 50px;
+  margin: 2px 0px 0 14px;
+  background: transparent url("../../images/logo.png") no-repeat 1px 8px;
+}
+@media only screen and (max-width: 327px) {
+  /* line 362, ../sass/jaxenter/header.scss */
+  header .logo-wrapper a.logo {
+    width: 100%;
+    background-size: contain;
+  }
+}
+/* line 375, ../sass/jaxenter/header.scss */
+header .logo-wrapper .advertising {
+  display: inline-block;
+  width: 728px;
+  height: 90px;
+  margin: 15px auto;
+  background: #999;
+}
+@media only screen and (max-width: 758px) {
+  /* line 375, ../sass/jaxenter/header.scss */
+  header .logo-wrapper .advertising {
+    width: 100%;
+  }
+}
+/* line 388, ../sass/jaxenter/header.scss */
+header .teaser {
+  min-height: 30px;
+  background: #e0eaf6;
+}
+/* line 391, ../sass/jaxenter/header.scss */
+header .teaser .text {
+  padding-top: 9.2px;
+  padding-bottom: 9.2px;
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Source Code Pro';
+}
+/* line 398, ../sass/jaxenter/header.scss */
+header .teaser .text .announcement {
+  color: #244977;
+  text-transform: uppercase;
+}
+/* line 403, ../sass/jaxenter/header.scss */
+header .teaser .text a {
+  color: #244977;
+}
+@media only screen and (max-width: 767px) {
+  /* line 391, ../sass/jaxenter/header.scss */
+  header .teaser .text {
+    text-align: center;
+  }
+}
+
+/* line 415, ../sass/jaxenter/header.scss */
+.navbar-toggle {
+  position: relative;
+  z-index: 1001;
+  display: block !important;
+  float: left;
+  border-color: #fff;
+}
+/* line 422, ../sass/jaxenter/header.scss */
+.navbar-toggle .icon-bar {
+  background: #fff;
+}
+
+/* line 427, ../sass/jaxenter/header.scss */
+#mobilenav {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  bottom: 0;
+  z-index: 1000;
+  width: 200px;
+  padding-top: 120px;
+  background: rgba(0, 0, 0, 0.9);
+}
+/* line 437, ../sass/jaxenter/header.scss */
+#mobilenav ul {
+  margin: 0 0 30px;
+}
+/* line 441, ../sass/jaxenter/header.scss */
+#mobilenav ul li a {
+  display: block;
+  margin: 0 0 1px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* line 452, ../sass/jaxenter/header.scss */
+.highlights {
+  min-height: 95px;
+  margin: 0;
+  padding: 20px 0;
+  background: #f2f6fb;
+}
+@media only screen and (max-width: 768px) {
+  /* line 458, ../sass/jaxenter/header.scss */
+  .highlights .highlight {
+    margin-bottom: 30px;
+  }
+}
+/* line 463, ../sass/jaxenter/header.scss */
+.highlights .highlight .image {
+  float: left;
+  height: 67px;
+  margin-right: 15px;
+}
+/* line 468, ../sass/jaxenter/header.scss */
+.highlights .highlight .image img {
+  width: auto;
+  height: 100%;
+}
+/* line 474, ../sass/jaxenter/header.scss */
+.highlights .highlight .text {
+  line-height: 22px;
+  padding: 1em;
+  font-size: 17px;
+  font-weight: 600;
+  color: #23294f;
+}
+/* line 482, ../sass/jaxenter/header.scss */
+.highlights .highlight .text a:hover {
+  color: #00acdc;
+  text-decoration: none;
+}
+
+/* line 1, ../sass/jaxenter/footer.scss */
+footer {
+  padding-top: 30px;
+  background: #094A6E;
+  border-top: 1px solid #ccc;
+}
+/* line 5, ../sass/jaxenter/footer.scss */
+footer .footer-menu {
+  padding-bottom: 20px;
+}
+/* line 8, ../sass/jaxenter/footer.scss */
+footer .footer-menu .widget .widget-title {
+  margin: 0 0 10px;
+  padding: 0 0 5px;
+  border-bottom: 1px dotted #999;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 19, ../sass/jaxenter/footer.scss */
+footer .footer-menu .widget ul.menu li {
+  margin: 0 0 10px;
+  font-size: 13px;
+}
+/* line 23, ../sass/jaxenter/footer.scss */
+footer .footer-menu .widget ul.menu li, footer .footer-menu .widget ul.menu li a {
+  color: #fff;
+}
+/* line 30, ../sass/jaxenter/footer.scss */
+footer .footer-bottom {
+  height: 85px;
+  background: #eee;
+  padding: 15px 0;
+}
+/* line 35, ../sass/jaxenter/footer.scss */
+footer .footer-bottom .logo-wrapper img {
+  height: auto;
+  max-width: 200px;
+}
+/* line 40, ../sass/jaxenter/footer.scss */
+footer .footer-bottom .menu-wrapper {
+  text-align: right;
+}
+/* line 42, ../sass/jaxenter/footer.scss */
+footer .footer-bottom .menu-wrapper ul.menu {
+  display: inline-block;
+  position: relative;
+  top: 25px;
+}
+/* line 46, ../sass/jaxenter/footer.scss */
+footer .footer-bottom .menu-wrapper ul.menu li {
+  margin: 0 0 10px;
+  font-size: 13px;
+  float: left;
+}
+/* line 50, ../sass/jaxenter/footer.scss */
+footer .footer-bottom .menu-wrapper ul.menu li, footer .footer-bottom .menu-wrapper ul.menu li a {
+  color: #094A6E;
+  padding-right: 10px;
+  font-weight: 600;
+}
+/* line 55, ../sass/jaxenter/footer.scss */
+footer .footer-bottom .menu-wrapper ul.menu li::after {
+  content: "|";
+}
+/* line 58, ../sass/jaxenter/footer.scss */
+footer .footer-bottom .menu-wrapper ul.menu li:last-child::after {
+  content: " ";
+}
+
+/* line 1, ../sass/jaxenter/sidebar.scss */
+#sidebar {
+  padding: 30px 15px 30px 30px;
+}
+/* line 2, ../sass/jaxenter/sidebar.scss */
+#sidebar .post-by-tag-image-title-background .widget-title {
+  display: none;
+}
+/* line 5, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget {
+  margin: 0 0 40px;
+}
+/* line 8, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget .widget-title {
+  margin: 0 0 10px;
+  padding: 0 0 5px;
+  border-bottom: 1px dotted #ccc;
+  font-size: 18px;
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase;
+}
+/* line 17, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget img.attachment-full {
+  height: auto;
+}
+/* line 21, ../sass/jaxenter/sidebar.scss */
+#sidebar .TagWidget {
+  float: left;
+  width: 100%;
+}
+/* line 24, ../sass/jaxenter/sidebar.scss */
+#sidebar .TagWidget .widget-title {
+  /*background-image: url("/wp-content/themes/jaxenter.com/images/fintech-stories.png"); */
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 32px;
+  /*font-size: 1px;
+  color: #fff;*/
+}
+/* line 33, ../sass/jaxenter/sidebar.scss */
+#sidebar .TagWidget ul.posts-by-tag-list li {
+  float: left;
+  width: 98%;
+  clear: both;
+  margin: 0 0 0.8em 0;
+}
+/* line 38, ../sass/jaxenter/sidebar.scss */
+#sidebar .TagWidget ul.posts-by-tag-list li .thumb {
+  display: block;
+  float: left;
+  width: 120px;
+}
+/* line 43, ../sass/jaxenter/sidebar.scss */
+#sidebar .TagWidget ul.posts-by-tag-list li .posts-by-tag-item-title {
+  padding: 0 0 0 0.4em;
+  display: block;
+  float: left;
+  width: 218px;
+}
+/* line 54, ../sass/jaxenter/sidebar.scss */
+#sidebar .TagWidget a {
+  text-decoration: none;
+}
+/* line 57, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget_polls-widget .pollbar {
+  margin: 1em 0 0 0;
+  height: 15px;
+}
+/* line 61, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget_polls-widget .Buttons {
+  padding: 0.4em;
+  margin: 1em 0 0 0;
+}
+/* line 65, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget_polls-widget a.button {
+  background-color: #2f4d81;
+  border: none;
+  text-align: center;
+  margin: 1em 0 0 0;
+  font-size: 1em;
+}
+/* line 71, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget_polls-widget a.button span {
+  margin: 0 0.6em 0 0;
+}
+/* line 75, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget_polls-widget p {
+  font-size: 1em;
+  margin: 0.4em 0 1.5em 0;
+  text-align: left !important;
+}
+/* line 82, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget_polls-widget ul {
+  margin: 0;
+}
+/* line 85, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget_polls-widget ul + p,
+#sidebar .widget_polls-widget ul + p + p {
+  text-align: center !important;
+}
+/* line 89, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget_polls-widget li {
+  margin: 0.4em 0;
+  background: #efefef;
+  padding: 0.4em;
+}
+/* line 93, ../sass/jaxenter/sidebar.scss */
+#sidebar .widget_polls-widget li label {
+  padding: 0 0 0 0.8em;
+}
+
+/* Skyscraper banners*/
+/* line 101, ../sass/jaxenter/sidebar.scss */
+.skyscraper-ad {
+  position: absolute;
+  right: -170px;
+  top: 180px;
+  width: 160px;
+}
+/* line 107, ../sass/jaxenter/sidebar.scss */
+.skyscraper-ad .skyscraper-top {
+  margin: 40px 0;
+}
+
+/* line 3, ../sass/jaxenter/widgets.scss */
+.widget.get-in-touch .body .icon {
+  float: left;
+  width: 58px;
+  height: 59px;
+  margin-right: 20px;
+  background: url("../../images/icon-widget-get-in-touch.jpg");
+}
+/* line 12, ../sass/jaxenter/widgets.scss */
+.widget.get-in-touch .body .text, .widget.get-in-touch .body .text p {
+  line-height: 1.3em;
+}
+
+/* --- Widget Recent Comments --- */
+/* line 22, ../sass/jaxenter/widgets.scss */
+.widget.tp_disqusrecentcomments .dsq-widget-list .dsq-widget-item {
+  margin: 0 0 10px;
+  padding: 10px;
+  background: #f2f2f2;
+}
+/* line 27, ../sass/jaxenter/widgets.scss */
+.widget.tp_disqusrecentcomments .dsq-widget-list .dsq-widget-item img.dsq-widget-avatar {
+  height: 37px;
+  padding-top: 3px;
+}
+/* line 32, ../sass/jaxenter/widgets.scss */
+.widget.tp_disqusrecentcomments .dsq-widget-list .dsq-widget-item a.dsq-widget-user,
+.widget.tp_disqusrecentcomments .dsq-widget-list .dsq-widget-item .dsq-widget-comment {
+  font-size: 14px;
+}
+/* line 38, ../sass/jaxenter/widgets.scss */
+.widget.tp_disqusrecentcomments .dsq-widget-list .dsq-widget-item span.dsq-widget-comment p {
+  line-height: 1.3em;
+}
+/* line 43, ../sass/jaxenter/widgets.scss */
+.widget.tp_disqusrecentcomments .dsq-widget-list .dsq-widget-item p.dsq-widget-meta {
+  margin: 5px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px dotted #ccc;
+  color: #f2f2f2;
+}
+/* line 49, ../sass/jaxenter/widgets.scss */
+.widget.tp_disqusrecentcomments .dsq-widget-list .dsq-widget-item p.dsq-widget-meta a {
+  display: block;
+}
+/* line 52, ../sass/jaxenter/widgets.scss */
+.widget.tp_disqusrecentcomments .dsq-widget-list .dsq-widget-item p.dsq-widget-meta a:before {
+  content: '\00BB';
+  margin-right: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* line 59, ../sass/jaxenter/widgets.scss */
+.widget.tp_disqusrecentcomments .dsq-widget-list .dsq-widget-item p.dsq-widget-meta a:last-child {
+  margin-top: -5px;
+}
+
+/* --- Widget Featured Posts --- */
+/* line 71, ../sass/jaxenter/widgets.scss */
+.widget.featured-posts ul li {
+  min-height: 80px;
+  margin: 0 0 10px;
+}
+/* line 76, ../sass/jaxenter/widgets.scss */
+.widget.featured-posts ul li a .thumb {
+  clear: both;
+  float: left;
+  width: 120px;
+  height: 80px;
+  overflow: hidden;
+}
+/* line 83, ../sass/jaxenter/widgets.scss */
+.widget.featured-posts ul li a .thumb img {
+  width: 100%;
+  height: auto !important;
+}
+/* line 89, ../sass/jaxenter/widgets.scss */
+.widget.featured-posts ul li a .title {
+  line-height: 1.3em;
+  margin-left: 130px;
+}
+
+/* Trending Posts */
+/* line 101, ../sass/jaxenter/widgets.scss */
+.widget.widget_widget_tptn_pop ul li {
+  min-height: 80px;
+  margin: 0 0 10px;
+}
+/* line 105, ../sass/jaxenter/widgets.scss */
+.widget.widget_widget_tptn_pop ul li > a.tptn_link {
+  display: block;
+  clear: both;
+  float: left;
+}
+/* line 115, ../sass/jaxenter/widgets.scss */
+.widget.widget_widget_tptn_pop ul li span.tptn_after_thumb {
+  display: block;
+  line-height: 1.3em;
+  margin-left: 130px;
+}
+
+/* line 126, ../sass/jaxenter/widgets.scss */
+.widget.interviewees-wrapper ul.interviewees {
+  list-style: none;
+}
+/* line 129, ../sass/jaxenter/widgets.scss */
+.widget.interviewees-wrapper ul.interviewees li {
+  margin: 0 0 30px;
+}
+/* line 132, ../sass/jaxenter/widgets.scss */
+.widget.interviewees-wrapper ul.interviewees li .interviewee-picture {
+  float: left;
+  width: 100px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+/* line 138, ../sass/jaxenter/widgets.scss */
+.widget.interviewees-wrapper ul.interviewees li .interviewee-picture img {
+  width: 100%;
+  height: auto;
+}
+/* line 144, ../sass/jaxenter/widgets.scss */
+.widget.interviewees-wrapper ul.interviewees li .interviewee-name {
+  margin: 0 0 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* line 150, ../sass/jaxenter/widgets.scss */
+.widget.interviewees-wrapper ul.interviewees li .interviewee-summary {
+  margin: 0;
+}
+/* line 153, ../sass/jaxenter/widgets.scss */
+.widget.interviewees-wrapper ul.interviewees li .interviewee-summary, .widget.interviewees-wrapper ul.interviewees li .interviewee-summary p {
+  line-height: 1.5em;
+  font-size: 14px;
+}
+
+/* --- Widget LATEST NETBEANS POSTS --- */
+/* line 165, ../sass/jaxenter/widgets.scss */
+.widget_latest_netbeans_posts .latest_netbeansposts_widget {
+  margin: 0 0 15px 0;
+}
+/* line 167, ../sass/jaxenter/widgets.scss */
+.widget_latest_netbeans_posts .latest_netbeansposts_widget .the-thumbnail {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+/* line 2, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-grey-header .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #ccc;
+  margin: 0px auto;
+}
+/* line 3, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-grey-header .tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 15px 14px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #ccc;
+  color: #333;
+  background-color: #fff;
+}
+/* line 4, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-grey-header .tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 15px 14px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #ccc;
+  color: #333;
+  background-color: #f0f0f0;
+}
+/* line 5, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-grey-header .tg .tg-e3zv {
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  /* line 6, ../sass/jaxenter/custom-tables.scss */
+  .jaxenter-table-grey-header .tg {
+    width: auto !important;
+  }
+  /* line 6, ../sass/jaxenter/custom-tables.scss */
+  .jaxenter-table-grey-header .tg col {
+    width: auto !important;
+  }
+  /* line 6, ../sass/jaxenter/custom-tables.scss */
+  .jaxenter-table-grey-header .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: auto 0px;
+  }
+}
+
+/* line 9, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-no-header .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0px auto;
+}
+/* line 10, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-no-header .tg td {
+  font-size: 14px;
+  padding: 15px 14px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+/* line 11, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-no-header .tg th {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 15px 14px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+}
+/* line 12, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-no-header .tg .tg-ly0g {
+  font-weight: bold;
+  background-color: #ffffff;
+}
+/* line 13, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-no-header .tg .tg-cxkv {
+  background-color: #ffffff;
+}
+/* line 14, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-no-header .tg .tg-941n {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif !important;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  /* line 15, ../sass/jaxenter/custom-tables.scss */
+  .jaxenter-table-no-header .tg {
+    width: auto !important;
+  }
+  /* line 15, ../sass/jaxenter/custom-tables.scss */
+  .jaxenter-table-no-header .tg col {
+    width: auto !important;
+  }
+  /* line 15, ../sass/jaxenter/custom-tables.scss */
+  .jaxenter-table-no-header .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: auto 0px;
+  }
+}
+
+/* line 19, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-blue-theme .tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #999;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0px auto;
+}
+/* line 20, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-blue-theme .tg td {
+  font-size: 14px;
+  padding: 15px 14px;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #999;
+  color: #444;
+  background-color: #F7FDFA;
+}
+/* line 21, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-blue-theme .tg th {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 15px 14px;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #999;
+  color: #fff;
+  background-color: #26ADE4;
+}
+/* line 22, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-blue-theme .tg .tg-smas {
+  font-weight: bold;
+  background-color: #2d4589;
+}
+/* line 23, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-blue-theme .tg .tg-2frb {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif !important;
+  background-color: #2d4589;
+}
+/* line 24, ../sass/jaxenter/custom-tables.scss */
+.jaxenter-table-blue-theme .tg .tg-bsv2 {
+  background-color: #efefef;
+}
+@media screen and (max-width: 767px) {
+  /* line 25, ../sass/jaxenter/custom-tables.scss */
+  .jaxenter-table-blue-theme .tg {
+    width: auto !important;
+  }
+  /* line 25, ../sass/jaxenter/custom-tables.scss */
+  .jaxenter-table-blue-theme .tg col {
+    width: auto !important;
+  }
+  /* line 25, ../sass/jaxenter/custom-tables.scss */
+  .jaxenter-table-blue-theme .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: auto 0px;
+  }
+}
+
+/* line 2, ../sass/jaxenter/templates/authors.scss */
+ul.authors > li {
+  margin: 0 0 20px;
+}
+/* line 5, ../sass/jaxenter/templates/authors.scss */
+ul.authors > li .author-image {
+  width: 96px;
+  margin-right: 10px;
+}
+/* line 10, ../sass/jaxenter/templates/authors.scss */
+ul.authors > li .author-name,
+ul.authors > li .author-info {
+  margin: 0 0 10px;
+}
+/* line 18, ../sass/jaxenter/templates/authors.scss */
+ul.authors > li .author-name .icon,
+ul.authors > li .author-info .icon,
+ul.authors > li .author-more .icon {
+  margin-right: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* --- Jax Magazine Form --- */
+/* line 2, ../sass/jaxenter/templates/jax-magazine.scss */
+.jaxmagazine-form {
+  margin: 30px 0 0;
+  padding: 15px;
+  background: #f2f2f2;
+  border-radius: 6px;
+}
+/* line 10, ../sass/jaxenter/templates/jax-magazine.scss */
+.jaxmagazine-form label {
+  width: 100%;
+  line-height: 30px;
+  font-weight: 600;
+}
+/* line 16, ../sass/jaxenter/templates/jax-magazine.scss */
+.jaxmagazine-form input[type="text"],
+.jaxmagazine-form select {
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+/* line 24, ../sass/jaxenter/templates/jax-magazine.scss */
+.jaxmagazine-form input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  line-height: 1em;
+  margin-right: 15px;
+}
+
+/* line 3, ../sass/jaxenter/templates/jobspot.scss */
+ul.sands-jobspot-jobs {
+  list-style: none !important;
+  margin: 0 !important;
+}
+/* line 8, ../sass/jaxenter/templates/jobspot.scss */
+ul.sands-jobspot-jobs li .job-thumbnail {
+  width: 150px;
+  height: 150px;
+  margin-right: 15px;
+}
+/* line 13, ../sass/jaxenter/templates/jobspot.scss */
+ul.sands-jobspot-jobs li .job-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+/* line 20, ../sass/jaxenter/templates/jobspot.scss */
+ul.sands-jobspot-jobs li .job-body .company {
+  margin: 0 0 5px;
+  font-weight: 700;
+  color: #999;
+}
+/* line 26, ../sass/jaxenter/templates/jobspot.scss */
+ul.sands-jobspot-jobs li .job-body h2 {
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+/* line 32, ../sass/jaxenter/templates/jobspot.scss */
+ul.sands-jobspot-jobs li .job-body h2 a {
+  color: #333;
+}
+/* line 43, ../sass/jaxenter/templates/jobspot.scss */
+ul.sands-jobspot-jobs li .job-info span.job-type {
+  margin-right: 15px;
+}
+
+/* line 54, ../sass/jaxenter/templates/jobspot.scss */
+.form-submit-job fieldset {
+  margin: 0 0 45px;
+  padding: 15px;
+  background: #f2f2f2;
+  border-radius: 6px;
+}
+/* line 60, ../sass/jaxenter/templates/jobspot.scss */
+.form-submit-job fieldset legend {
+  font-size: 18px;
+  font-weight: 700;
+}
+/* line 67, ../sass/jaxenter/templates/jobspot.scss */
+.form-submit-job fieldset label {
+  width: 100%;
+  line-height: 30px;
+}
+/* line 72, ../sass/jaxenter/templates/jobspot.scss */
+.form-submit-job fieldset input[type="text"],
+.form-submit-job fieldset select {
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+/* line 80, ../sass/jaxenter/templates/jobspot.scss */
+.form-submit-job fieldset select {
+  width: auto;
+}
+/* line 84, ../sass/jaxenter/templates/jobspot.scss */
+.form-submit-job fieldset textarea {
+  width: 100%;
+  height: 120px;
+}
+/* line 89, ../sass/jaxenter/templates/jobspot.scss */
+.form-submit-job fieldset input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  line-height: 1em;
+  margin-right: 15px;
+}
+/* line 96, ../sass/jaxenter/templates/jobspot.scss */
+.form-submit-job fieldset input[type="file"] {
+  background: transparent;
+  border: 0;
+}
+
+/* line 104, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job ul.fields {
+  float: left;
+  list-style: none;
+  margin: 15px 0 0 30px;
+}
+/* line 109, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job ul.fields li {
+  margin: 0 0 15px;
+  font-size: 18px;
+}
+/* line 113, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job ul.fields li .icon {
+  width: 30px;
+}
+/* line 119, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job .image-wrapper {
+  float: left;
+  margin: 0 0 30px;
+}
+/* line 124, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job .text {
+  clear: both;
+  margin: 0 0 30px;
+}
+/* line 129, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job .contact {
+  margin: 0 0 45px;
+  padding: 15px 0 0;
+}
+/* line 133, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job .contact .icon-wrapper {
+  margin-right: 30px;
+}
+/* line 136, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job .contact .icon-wrapper .icon {
+  font-size: 70px;
+  color: #666;
+}
+/* line 142, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job .contact .contact-headline {
+  margin: 10px 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #666;
+}
+/* line 149, ../sass/jaxenter/templates/jobspot.scss */
+.post.single.job .contact .contact-body {
+  line-height: 1.5em;
+}
+
+/* line 1, ../sass/jaxenter/_index/featured-posts.scss */
+.featured-posts-wrapper {
+  margin: 0 0 30px;
+  padding: 0 0 15px;
+  border-bottom: 1px dotted #ccc;
+}
+/* line 7, ../sass/jaxenter/_index/featured-posts.scss */
+.featured-posts-wrapper ul.featured-posts li {
+  float: right;
+  width: 50%;
+  height: 100px;
+  margin: 0 0 10px;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 7, ../sass/jaxenter/_index/featured-posts.scss */
+  .featured-posts-wrapper ul.featured-posts li {
+    float: none;
+    width: 100%;
+  }
+}
+/* line 18, ../sass/jaxenter/_index/featured-posts.scss */
+.featured-posts-wrapper ul.featured-posts li a.featured-post {
+  display: block;
+  width: 100%;
+  height: 100px;
+  background: #e0eaf6;
+}
+/* line 24, ../sass/jaxenter/_index/featured-posts.scss */
+.featured-posts-wrapper ul.featured-posts li a.featured-post .image {
+  float: left;
+  width: 160px;
+  height: 100px;
+  margin-right: 10px;
+  background: no-repeat center center;
+  background-size: cover;
+}
+@media only screen and (max-width: 767px) {
+  /* line 24, ../sass/jaxenter/_index/featured-posts.scss */
+  .featured-posts-wrapper ul.featured-posts li a.featured-post .image {
+    width: 100px;
+  }
+}
+/* line 37, ../sass/jaxenter/_index/featured-posts.scss */
+.featured-posts-wrapper ul.featured-posts li a.featured-post .title {
+  padding: 10px;
+  line-height: 1.15em;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+/* line 45, ../sass/jaxenter/_index/featured-posts.scss */
+.featured-posts-wrapper ul.featured-posts li a.featured-post:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+/* line 49, ../sass/jaxenter/_index/featured-posts.scss */
+.featured-posts-wrapper ul.featured-posts li a.featured-post:hover .title {
+  color: #09c;
+}
+@media only screen and (min-width: 1200px) {
+  /* line 57, ../sass/jaxenter/_index/featured-posts.scss */
+  .featured-posts-wrapper ul.featured-posts li:first-child {
+    float: left;
+    width: 50%;
+    height: 320px;
+    padding: 0 10px 0 0;
+  }
+  /* line 63, ../sass/jaxenter/_index/featured-posts.scss */
+  .featured-posts-wrapper ul.featured-posts li:first-child a.featured-post {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    margin: 0 10px 0 0;
+  }
+  /* line 69, ../sass/jaxenter/_index/featured-posts.scss */
+  .featured-posts-wrapper ul.featured-posts li:first-child a.featured-post .image {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    margin: 0;
+  }
+  /* line 80, ../sass/jaxenter/_index/featured-posts.scss */
+  .featured-posts-wrapper ul.featured-posts li:first-child a.featured-post .background {
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.15em;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 90, ../sass/jaxenter/_index/featured-posts.scss */
+  .featured-posts-wrapper ul.featured-posts li:first-child a.featured-post .background .title {
+    margin: 0 0 5px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+  }
+  /* line 99, ../sass/jaxenter/_index/featured-posts.scss */
+  .featured-posts-wrapper ul.featured-posts li:first-child a.featured-post:hover .background {
+    background: rgba(47, 77, 129, 0.5);
+  }
+}
+
+/* --- Post --- */
+/* line 4, ../sass/jaxenter/_index/post.scss */
+.post {
+  margin: 0 0 25px;
+  padding: 0 0 25px;
+  border-bottom: 1px dotted #999;
+}
+@media only screen and (max-width: 480px) {
+  /* line 4, ../sass/jaxenter/_index/post.scss */
+  .post {
+    padding: 0;
+    border: 0;
+  }
+}
+/* line 14, ../sass/jaxenter/_index/post.scss */
+.post .image {
+  float: left;
+  width: 150px;
+  height: 100px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 480px) {
+  /* line 14, ../sass/jaxenter/_index/post.scss */
+  .post .image {
+    display: none;
+  }
+}
+/* line 25, ../sass/jaxenter/_index/post.scss */
+.post .body {
+  margin-left: 175px;
+}
+@media only screen and (max-width: 480px) {
+  /* line 25, ../sass/jaxenter/_index/post.scss */
+  .post .body {
+    margin-left: 0;
+  }
+}
+/* line 33, ../sass/jaxenter/_index/post.scss */
+.post .tagline {
+  margin: 0 0 5px;
+  font-weight: 700;
+  color: #666;
+}
+/* line 39, ../sass/jaxenter/_index/post.scss */
+.post .title {
+  margin: 0 0 5px;
+}
+/* line 42, ../sass/jaxenter/_index/post.scss */
+.post .title, .post .title a {
+  line-height: 1.3em;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+/* line 50, ../sass/jaxenter/_index/post.scss */
+.post .tags {
+  margin: 0 0 10px;
+}
+/* line 53, ../sass/jaxenter/_index/post.scss */
+.post .tags a {
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #244977;
+}
+/* line 59, ../sass/jaxenter/_index/post.scss */
+.post .tags a:last-child {
+  margin-right: 0;
+}
+/* line 66, ../sass/jaxenter/_index/post.scss */
+.post .text a,
+.post .text a:hover,
+.post .text a:focus {
+  color: #428bca;
+}
+/* line 72, ../sass/jaxenter/_index/post.scss */
+.post .text code {
+  padding: 3px;
+  color: #666;
+  background-color: #f2f2f2;
+}
+/* line 78, ../sass/jaxenter/_index/post.scss */
+.post .text pre {
+  margin: 0 0 10px;
+  padding: 10px;
+  background: #f2f2f2;
+  font-family: 'Courier New', serif;
+  font-size: 12px;
+}
+/* line 86, ../sass/jaxenter/_index/post.scss */
+.post .text, .post .text p, .post .text li, .post .text div {
+  line-height: 1.3em;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+}
+/* line 93, ../sass/jaxenter/_index/post.scss */
+.post .text p {
+  margin: 0 0 10px;
+}
+/* line 97, ../sass/jaxenter/_index/post.scss */
+.post .text > p:last-child {
+  margin: 0 0 0;
+}
+/* line 101, ../sass/jaxenter/_index/post.scss */
+.post .text strong {
+  font-weight: 700 !important;
+}
+/* line 105, ../sass/jaxenter/_index/post.scss */
+.post .text em {
+  font-style: italic !important;
+}
+/* line 109, ../sass/jaxenter/_index/post.scss */
+.post .text ul,
+.post .text ol {
+  margin: 0 0 10px 18px;
+}
+/* line 114, ../sass/jaxenter/_index/post.scss */
+.post .text ul {
+  list-style: square outside;
+}
+/* line 118, ../sass/jaxenter/_index/post.scss */
+.post .text ol {
+  list-style: decimal outside;
+}
+/* line 122, ../sass/jaxenter/_index/post.scss */
+.post .text blockquote {
+  position: relative;
+  margin: 15px 0 30px;
+  padding: 15px 15px 15px 60px;
+  background: #f2f2f2;
+  border-radius: 6px;
+  font-style: italic;
+}
+/* line 130, ../sass/jaxenter/_index/post.scss */
+.post .text blockquote:before {
+  position: absolute;
+  z-index: 100;
+  top: 15px;
+  left: 15px;
+  display: block;
+  content: '';
+  width: 35px;
+  height: 25px;
+  background: url("../../images/quotation-marks.png") no-repeat no-repeat;
+}
+/* line 142, ../sass/jaxenter/_index/post.scss */
+.post .text blockquote p {
+  position: relative;
+  z-index: 101;
+}
+/* line 148, ../sass/jaxenter/_index/post.scss */
+.post .text .download-button {
+  margin: 30px 0 0;
+}
+/* line 151, ../sass/jaxenter/_index/post.scss */
+.post .text .download-button a.btn-primary {
+  color: #fff;
+}
+/* line 156, ../sass/jaxenter/_index/post.scss */
+.post .text img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* line 163, ../sass/jaxenter/_index/post.scss */
+.post .video {
+  position: relative;
+  margin: 30px 0 0;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+}
+/* line 169, ../sass/jaxenter/_index/post.scss */
+.post .video iframe {
+  width: 100% !important;
+}
+/* line 174, ../sass/jaxenter/_index/post.scss */
+.post .book-box {
+  margin: 0 0 30px;
+}
+/* line 177, ../sass/jaxenter/_index/post.scss */
+.post .book-box .image-wrapper {
+  width: 30%;
+  margin: 0 !important;
+  padding-right: 15px;
+}
+/* line 183, ../sass/jaxenter/_index/post.scss */
+.post .book-box .image-wrapper .image img {
+  width: 100%;
+  height: auto;
+}
+/* line 190, ../sass/jaxenter/_index/post.scss */
+.post .book-box .table-wrapper {
+  width: 70%;
+}
+/* line 193, ../sass/jaxenter/_index/post.scss */
+.post .book-box .table-wrapper table, .post .book-box .table-wrapper tr, .post .book-box .table-wrapper td {
+  border: 1px solid #999;
+}
+/* line 197, ../sass/jaxenter/_index/post.scss */
+.post .book-box .table-wrapper table {
+  width: 100%;
+  margin: 0 0 15px;
+}
+/* line 202, ../sass/jaxenter/_index/post.scss */
+.post .book-box .table-wrapper table tr td {
+  font-size: 14px;
+}
+/* line 206, ../sass/jaxenter/_index/post.scss */
+.post .book-box .table-wrapper table tr td:first-child {
+  width: 50%;
+}
+/* line 210, ../sass/jaxenter/_index/post.scss */
+.post .book-box .table-wrapper table tr td:last-child {
+  width: 50%;
+  font-weight: 300;
+}
+/* line 219, ../sass/jaxenter/_index/post.scss */
+.post .credits {
+  margin: 8px 0 15px 0;
+  color: #666;
+}
+/* line 223, ../sass/jaxenter/_index/post.scss */
+.post .credits a {
+  color: #666;
+  text-decoration: underline;
+}
+
+/* line 1, ../sass/jaxenter/_index/pagination.scss */
+.pagination-wrapper {
+  text-align: center;
+}
+/* line 4, ../sass/jaxenter/_index/pagination.scss */
+.pagination-wrapper ul.page-numbers {
+  display: inline;
+}
+/* line 7, ../sass/jaxenter/_index/pagination.scss */
+.pagination-wrapper ul.page-numbers li {
+  display: inline;
+  margin: 0 3px;
+}
+/* line 11, ../sass/jaxenter/_index/pagination.scss */
+.pagination-wrapper ul.page-numbers li a,
+.pagination-wrapper ul.page-numbers li span {
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+@media only screen and (max-width: 480px) {
+  /* line 11, ../sass/jaxenter/_index/pagination.scss */
+  .pagination-wrapper ul.page-numbers li a,
+  .pagination-wrapper ul.page-numbers li span {
+    padding: 0 5px;
+    font-size: 12px;
+  }
+}
+/* line 26, ../sass/jaxenter/_index/pagination.scss */
+.pagination-wrapper ul.page-numbers li a {
+  background: #f2f2f2;
+  color: #666;
+}
+/* line 31, ../sass/jaxenter/_index/pagination.scss */
+.pagination-wrapper ul.page-numbers li span.current {
+  background: #428bca;
+  color: #fff;
+}
+
+/* A lot of style attributes are defined in _index/post */
+/* --- Single Post --- */
+/* line 4, ../sass/jaxenter/_single/post.scss */
+.post.single {
+  border-bottom: 0;
+  /* --- Sharing Buttons --- */
+  /* --- Author Box --- */
+}
+/* line 7, ../sass/jaxenter/_single/post.scss */
+.post.single h1.title {
+  margin: 0 0 20px;
+  font-size: 36px;
+}
+/* line 12, ../sass/jaxenter/_single/post.scss */
+.post.single h2, .post.single h3, .post.single h4, .post.single h5 {
+  margin: 0px 0 15px;
+  padding: 20px 0 0;
+  font-weight: 700;
+}
+/* line 18, ../sass/jaxenter/_single/post.scss */
+.post.single h2 {
+  font-size: 32px;
+}
+/* line 22, ../sass/jaxenter/_single/post.scss */
+.post.single h3 {
+  font-size: 24px;
+}
+/* line 26, ../sass/jaxenter/_single/post.scss */
+.post.single h4 {
+  font-size: 16px;
+}
+/* line 30, ../sass/jaxenter/_single/post.scss */
+.post.single .meta {
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+  border-bottom: 1px dotted #cdcdcd;
+  font-size: 14px;
+  color: #666;
+}
+/* line 37, ../sass/jaxenter/_single/post.scss */
+.post.single .meta > span {
+  margin-right: 8px;
+}
+/* line 40, ../sass/jaxenter/_single/post.scss */
+.post.single .meta > span:last-child {
+  margin-right: 0;
+}
+/* line 45, ../sass/jaxenter/_single/post.scss */
+.post.single .meta .icon {
+  margin-right: 2px;
+}
+/* line 49, ../sass/jaxenter/_single/post.scss */
+.post.single .meta a {
+  color: #666;
+}
+@media only screen and (max-width: 480px) {
+  /* line 30, ../sass/jaxenter/_single/post.scss */
+  .post.single .meta {
+    margin: 0 0 0;
+  }
+}
+/* line 58, ../sass/jaxenter/_single/post.scss */
+.post.single .tags {
+  margin: 0 0 15px;
+}
+/* line 63, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons {
+  margin: 0 0 15px;
+}
+/* line 66, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons .headline {
+  margin: 30px 0px 15px;
+  font-weight: 700;
+  color: #666;
+}
+/* line 72, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons.sharing-buttons-bottom {
+  margin: 0 0 30px;
+}
+/* line 76, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons a.sharing-button {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 0 15px 15px 0;
+}
+/* line 82, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons a.sharing-button .icon {
+  float: left;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+/* line 92, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons a.sharing-button .count {
+  float: right;
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+/* line 104, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons a.sharing-button.sharing-button-small {
+  height: 25px;
+  line-height: 25px;
+}
+/* line 109, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons a.sharing-button.sharing-button-small .icon {
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+}
+/* line 115, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons a.sharing-button.sharing-button-small .count {
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 500;
+}
+/* line 124, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons .sharing-button-facebook {
+  background: #3B5998;
+}
+/* line 128, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons .sharing-button-twitter {
+  background: #55acee;
+}
+/* line 132, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons .sharing-button-linkedin {
+  background: #007bb6;
+}
+/* line 136, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons .sharing-button-google-plus {
+  background: #dd4b39;
+}
+/* line 140, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons .sharing-button-reddit {
+  background: #cee3f8;
+}
+/* line 143, ../sass/jaxenter/_single/post.scss */
+.post.single .sharing-buttons .sharing-button-reddit i.icon,
+.post.single .sharing-buttons .sharing-button-reddit .num-shares {
+  color: #000;
+}
+/* line 150, ../sass/jaxenter/_single/post.scss */
+.post.single .image-wrapper {
+  float: right;
+  max-width: 350px;
+  margin: 0 0 15px 45px;
+}
+/* line 155, ../sass/jaxenter/_single/post.scss */
+.post.single .image-wrapper .image {
+  float: none;
+  width: auto;
+  height: auto;
+}
+/* line 165, ../sass/jaxenter/_single/post.scss */
+.post.single .image-wrapper .credits {
+  font-size: 12px;
+  color: #666;
+}
+@media only screen and (max-width: 768px) {
+  /* line 150, ../sass/jaxenter/_single/post.scss */
+  .post.single .image-wrapper {
+    display: none;
+  }
+}
+/* line 175, ../sass/jaxenter/_single/post.scss */
+.post.single .excerpt {
+  margin: 0 0 30px;
+}
+/* line 178, ../sass/jaxenter/_single/post.scss */
+.post.single .excerpt, .post.single .excerpt p {
+  line-height: 1.3em;
+  font-size: 24px;
+  font-weight: 300;
+  color: #428bca;
+}
+/* line 187, ../sass/jaxenter/_single/post.scss */
+.post.single .text, .post.single .text p, .post.single .text li, .post.single .text div {
+  line-height: 1.5em;
+}
+/* line 191, ../sass/jaxenter/_single/post.scss */
+.post.single .text .wp-polls-form a.btn-info {
+  color: #fff;
+}
+/* line 198, ../sass/jaxenter/_single/post.scss */
+.post.single .author-box {
+  margin: 0 0 30px;
+  padding: 30px 0;
+  border-top: 1px dotted #999;
+  border-bottom: 1px dotted #999;
+  font-size: 14px;
+}
+/* line 205, ../sass/jaxenter/_single/post.scss */
+.post.single .author-box .icon {
+  margin-right: 5px;
+  color: #666;
+}
+/* line 210, ../sass/jaxenter/_single/post.scss */
+.post.single .author-box .headline {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #666;
+}
+/* line 217, ../sass/jaxenter/_single/post.scss */
+.post.single .author-box .author-image {
+  padding: 0;
+}
+@media only screen and (max-width: 1200px) {
+  /* line 217, ../sass/jaxenter/_single/post.scss */
+  .post.single .author-box .author-image {
+    margin-bottom: 10px;
+  }
+}
+/* line 226, ../sass/jaxenter/_single/post.scss */
+.post.single .author-box .author-info p {
+  margin-bottom: 10px;
+}
+/* line 231, ../sass/jaxenter/_single/post.scss */
+.post.single .author-box .author-description {
+  line-height: 1.5em;
+  padding: 0;
+}
+/* line 237, ../sass/jaxenter/_single/post.scss */
+.post.single .related-posts-wrapper {
+  padding: 0 0 15px;
+  border-bottom: 1px dotted #ddd;
+}
+/* line 241, ../sass/jaxenter/_single/post.scss */
+.post.single .related-posts-wrapper .headline {
+  margin: 0 0px 15px;
+  font-weight: 700;
+  color: #666;
+}
+/* line 248, ../sass/jaxenter/_single/post.scss */
+.post.single .related-posts-wrapper .related-posts a.related-post {
+  display: block;
+}
+/* line 251, ../sass/jaxenter/_single/post.scss */
+.post.single .related-posts-wrapper .related-posts a.related-post .image {
+  float: none;
+  width: 100%;
+  height: 150px;
+  margin: 0 0 10px;
+  text-align: left;
+}
+/* line 258, ../sass/jaxenter/_single/post.scss */
+.post.single .related-posts-wrapper .related-posts a.related-post .image img {
+  margin: auto;
+}
+/* line 263, ../sass/jaxenter/_single/post.scss */
+.post.single .related-posts-wrapper .related-posts a.related-post .title {
+  line-height: 1.15em;
+  font-size: 18px;
+  font-weight: 600;
+  color: #244977;
+}
+/* line 274, ../sass/jaxenter/_single/post.scss */
+.post.single .comments-wrapper .headline {
+  margin: 30px 0px 15px;
+  font-weight: 700;
+  color: #666;
+}
+
+/* line 40, ../sass/include.scss */
+body {
+  background: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+/* line 48, ../sass/include.scss */
+body, div, p, td, h1, h2, h3, h4, h5, ul, li, a, span {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+/* line 57, ../sass/include.scss */
+a,
+a:hover,
+a:focus {
+  color: #244977;
+}
+
+/* line 63, ../sass/include.scss */
+input {
+  padding: 0 3px;
+  background: #fff;
+  border: 1px solid #999;
+}
+
+/* line 69, ../sass/include.scss */
+.container-fluid.no-padding {
+  padding: 0;
+}
+
+/* line 73, ../sass/include.scss */
+.row.no-padding {
+  margin: 0;
+}
+/* line 76, ../sass/include.scss */
+.row.no-padding [class*="col-"] {
+  padding: 0 !important;
+}
+
+/* line 81, ../sass/include.scss */
+#content {
+  border-right: 1px dotted #999;
+  padding: 30px 30px 30px 15px;
+}
+@media only screen and (max-width: 991px) {
+  /* line 81, ../sass/include.scss */
+  #content {
+    border-right: 0;
+  }
+}
+
+/* line 90, ../sass/include.scss */
+h1 {
+  margin: 0 0 30px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* line 97, ../sass/include.scss */
+.alignleft {
+  float: left;
+  margin-right: 25px;
+}
+
+/* line 102, ../sass/include.scss */
+.alignright {
+  float: right;
+  margin-left: 25px;
+}
+
+/* line 107, ../sass/include.scss */
+.aligncenter {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* line 113, ../sass/include.scss */
+.wp-caption {
+  margin: 25px 0;
+  text-align: center;
+}
+/* line 117, ../sass/include.scss */
+.wp-caption p.wp-caption-text {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* - submit your post page - */
+/* line 126, ../sass/include.scss */
+.page-template-templatespage-submit-your-post-php .wp-editor-container {
+  border: #DCDBDB 1px solid;
+  border-radius: 3px;
+}
+
+/* JAX Award voting page */
+/* line 23, ../sass/screen.scss */
+.jax-aw-col-box {
+  border: #ccc 1px dotted;
+  margin-top: 5px;
+  padding: 10px;
+}
+/* line 29, ../sass/screen.scss */
+.jax-aw-col-box .panel-group .panel-default .panel-heading {
+  display: inline-block;
+  width: 100%;
+  padding: 0px 15px;
+}
+/* line 34, ../sass/screen.scss */
+.jax-aw-col-box .panel-group .panel-default .radio-box {
+  width: 79%;
+  float: left;
+}
+/* line 38, ../sass/screen.scss */
+.jax-aw-col-box .panel-group .panel-default .info-icon {
+  width: 19%;
+  margin-top: 12px;
+  text-align: right;
+  color: #2f4d81;
+}
+
+/* line 47, ../sass/screen.scss */
+.services-scripts {
+  display: none;
+}
+
+/* line 51, ../sass/screen.scss */
+.readitintheapp {
+  background-color: #E1EAF5;
+  padding: 0 0 1em 0;
+  margin: 1em 0;
+}
+/* line 55, ../sass/screen.scss */
+.readitintheapp h3, .readitintheapp div {
+  color: #2C4776 !important;
+}
+/* line 58, ../sass/screen.scss */
+.readitintheapp img {
+  max-width: 140px;
+  max-height: 44px;
+}
+
+/* line 63, ../sass/screen.scss */
+.jaxintrotext {
+  margin: 1em 0 0 0;
+}
+
+/* line 66, ../sass/screen.scss */
+.insidethisissue {
+  margin: 0 0 2em 0;
+}
+
+/* line 70, ../sass/screen.scss */
+.jaxmagazines-list .jax-item {
+  min-height: 300px;
+}
+/* line 73, ../sass/screen.scss */
+.jaxmagazines-list .jax-button {
+  background-color: #1a4da4;
+  display: block;
+  margin: 1em 0 2em 0;
+  max-width: 160px;
+  border: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 84, ../sass/screen.scss */
+  .readitintheapp img {
+    max-width: 200px;
+    margin: 1em;
+  }
+
+  /* line 89, ../sass/screen.scss */
+  .jaxmagazines-list .jax-button {
+    margin: 1em auto 2em auto;
+  }
+
+  /* line 92, ../sass/screen.scss */
+  .jax-item img {
+    margin: 0 auto;
+  }
+}

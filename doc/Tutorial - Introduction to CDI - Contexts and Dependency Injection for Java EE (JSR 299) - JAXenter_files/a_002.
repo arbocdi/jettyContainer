@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="de-DE"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head>
+    <body class="sq-body sands-sq-body-background">
+      <li id="text-14" class="widget widget_text">			<div class="textwidget"><div class="conference-info-logo sq-column sq-twelve">
+    <a href="https://devops.jaxlondon.com/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"><img style="" src="a_data_002/JAX_Dev_Sessions_list_box_34091_v1.png" alt="Presented by JAX DevOps 2016"></a>
+  </div></div>
+		</li>
+
+
+	<link rel="stylesheet" id="Montserrat-google-font-css" href="a_data_002/css" type="text/css" media="all">
+	<link rel="stylesheet" id="style-custom-css" href="a_data_002/style-custom.css" type="text/css" media="all">
+	<style>
+	
+	.sq-column, .sq-columns {
+	    float: left;
+	    position: relative;
+	    min-height: 1px;
+	}   
+	
+	.sq-twelve{width:100%;}
+	.sq-eleven{width:90%;}
+	.sq-ten{width:80%;}
+	.sq-nine{width:75%;}
+	.sq-eight{width:65%;}
+	.sq-seven{width:55%;}
+	.sq-six{width:50%;}
+	.sq-five{width:65%;}
+	.sq-four{width:33%; margin-right: 2%;}
+	.sq-three{width:23%; margin-right: 2%;}
+	.sq-two{width:17%; margin-right: 3%;}
+	.sq-one{width:8%; margin-right: 2%;}
+	
+	.sq-body{
+	    width: 320px;
+	    overflow: hidden !important;
+/* 	    background-color: #ecf4f7; */
+	    border-bottom-width: 1px;
+	    border-right-width: 1px #d4e7ec solid;
+	    border-bottom-style: solid;
+	    border-right-style: solid;
+	    display: block;
+	    margin: 0 0 20px 0;
+	    padding: 10px 15px 20px 15px;
+	    font-family: "Montserrat";
+	    min-width:319px;
+	}
+	
+	h3 {
+	    font-size: 14px;
+	    margin: 0 0 5px 0;
+	}
+	
+	.sands-sq-session-title {
+    	background-color: transparent !important;
+	}
+	
+	h3 a{
+		color: #333;
+	    text-decoration: none;
+	    letter-spacing: 0;
+	}
+	
+	h3 a:hover{
+		text-decoration: underline;
+	}
+	
+	.sq-body > li {
+		list-style: none;
+	}
+	
+	.conference-info-logo img{
+		max-width: 100%;
+	}
+	
+	.sq-session-block{
+		    border-bottom: dotted 1px #999;
+	    margin-top: 10px;
+	    padding-bottom: 10px;
+	}
+	
+	.sq-gdlr-session-thumbnail-wrapper img{
+		width: 100%;
+		height: auto;
+	}
+	
+	.sq-speakers-name-and-company a{
+		text-decoration: none;
+	    font-size: 13px;
+/* 	    color:#08417B; */
+	}
+	
+	.sq-speakers-name-and-company a:hover{
+		text-decoration: underline;
+	}
+	
+	.sq-speakers-name-and-company em{
+		text-decoration: none;
+	    font-size: 12px;
+	}
+	
+	li .button-link-to-website {
+		padding: 10px 0;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	
+	li .button-link-to-website a.button{
+		text-decoration: none;
+/* 		background:#a4c408; */
+		padding: 10px;
+/* 		color: #fff; */
+	    border-radius: 3px;
+	    font-size: 14px;
+	    font-weight: 700;
+	}
+	
+	li .button-link-to-website a.button:hover{
+		text-decoration: underline;
+	}
+	</style>
+
+
+		<div class="sq-session-block sq-columns sq-twelve">
+        	<div class="sq-two sq-columns">
+        		        		<div class="sq-speakers-image-small">
+	        			<div class="sq-gdlr-session-thumbnail-wrapper sq-twelve sq-columns"><a href="https://devops.jaxlondon.com/speaker/eduards-sizovs/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"></a><div class="gdlr-speaker-thumbnail"><a href="https://devops.jaxlondon.com/speaker/eduards-sizovs/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"><img src="a_data_002/56a76479dcb76c08727da27eversion76sizefull-150x150.jpg" alt="" height="150" width="150"></a><a class="gdlr-speaker-thumbnail-overlay-link" href=""><span class="gdlr-speaker-thumbnail-overlay"></span></a></div></div>	        		</div>
+	        	        	</div>
+        	<div class="sq-ten sq-columns">
+	        	<h3 class="sq-session-title sands-sq-session-title sq-columns sq-twelve">
+	        		<a href="https://devops.jaxlondon.com/session/8-things-that-make-continuous-delivery-go-nuts/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" rel="bookmark" title="Permanent Link to 8 Things That Make Continuous Delivery Go Nuts" target="_blank">
+	        			8 Things That Make Continuous Delivery Go Nuts	        		</a>
+	        	</h3>
+        	        	    <div class="sq-speakers-name-and-company sq-column sq-twelve">
+        	       	<a class="sands-sq-speakers-infos" href="https://devops.jaxlondon.com/speaker/eduards-sizovs/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank">Eduards Sizovs</a> (<em class="sands-sq-speakers-infos">Sizovs.net</em>)
+        	    </div>
+                    	</div>
+		</div>
+			<div class="sq-session-block sq-columns sq-twelve">
+        	<div class="sq-two sq-columns">
+        		        		<div class="sq-speakers-image-small">
+	        			<div class="sq-gdlr-session-thumbnail-wrapper sq-twelve sq-columns"><a href="https://devops.jaxlondon.com/speaker/benjamin-wootton/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"></a><div class="gdlr-speaker-thumbnail"><a href="https://devops.jaxlondon.com/speaker/benjamin-wootton/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"><img src="a_data_002/56a64abedcb76c08727da1f1version79sizefull-150x150.jpg" alt="" height="150" width="150"></a><a class="gdlr-speaker-thumbnail-overlay-link" href=""><span class="gdlr-speaker-thumbnail-overlay"></span></a></div></div>	        		</div>
+	        	        	</div>
+        	<div class="sq-ten sq-columns">
+	        	<h3 class="sq-session-title sands-sq-session-title sq-columns sq-twelve">
+	        		<a href="https://devops.jaxlondon.com/session/the-surprising-truth-about-devops-in-banking/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" rel="bookmark" title="Permanent Link to The Surprising Truth About DevOps In Banking" target="_blank">
+	        			The Surprising Truth About DevOps In Banking	        		</a>
+	        	</h3>
+        	        	    <div class="sq-speakers-name-and-company sq-column sq-twelve">
+        	       	<a class="sands-sq-speakers-infos" href="https://devops.jaxlondon.com/speaker/benjamin-wootton/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank">Benjamin Wootton</a> (<em class="sands-sq-speakers-infos">Sendachi</em>)
+        	    </div>
+                    	</div>
+		</div>
+			<div class="sq-session-block sq-columns sq-twelve">
+        	<div class="sq-two sq-columns">
+        		        		<div class="sq-speakers-image-small">
+	        			<div class="sq-gdlr-session-thumbnail-wrapper sq-twelve sq-columns"><a href="https://devops.jaxlondon.com/speaker/ray-tsang/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"></a><div class="gdlr-speaker-thumbnail"><a href="https://devops.jaxlondon.com/speaker/ray-tsang/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"><img src="a_data_002/567838e9049a8c485e19a0d6version28sizefull-150x150.jpg" alt="" height="150" width="150"></a><a class="gdlr-speaker-thumbnail-overlay-link" href=""><span class="gdlr-speaker-thumbnail-overlay"></span></a></div></div>	        		</div>
+	        	        	</div>
+        	<div class="sq-ten sq-columns">
+	        	<h3 class="sq-session-title sands-sq-session-title sq-columns sq-twelve">
+	        		<a href="https://devops.jaxlondon.com/session/java-based-microservices-containers-kubernetes-how-to/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" rel="bookmark" title="Permanent Link to Java-based microservices, containers, Kubernetes – how to" target="_blank">
+	        			Java-based microservices, containers, Kubernetes – how to	        		</a>
+	        	</h3>
+        	        	    <div class="sq-speakers-name-and-company sq-column sq-twelve">
+        	       	<a class="sands-sq-speakers-infos" href="https://devops.jaxlondon.com/speaker/ray-tsang/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank">Ray Tsang</a> (<em class="sands-sq-speakers-infos">Google</em>)
+        	    </div>
+                    	</div>
+		</div>
+			<div class="sq-session-block sq-columns sq-twelve">
+        	<div class="sq-two sq-columns">
+        		        		<div class="sq-speakers-image-small">
+	        			<div class="sq-gdlr-session-thumbnail-wrapper sq-twelve sq-columns"><a href="https://devops.jaxlondon.com/speaker/andrey-sibiryov/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"></a><div class="gdlr-speaker-thumbnail"><a href="https://devops.jaxlondon.com/speaker/andrey-sibiryov/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"><img src="a_data_002/5677f257049a8c485e19a09eversion33sizefull-150x150.jpg" alt="" height="150" width="150"></a><a class="gdlr-speaker-thumbnail-overlay-link" href=""><span class="gdlr-speaker-thumbnail-overlay"></span></a></div></div>	        		</div>
+	        	        	</div>
+        	<div class="sq-ten sq-columns">
+	        	<h3 class="sq-session-title sands-sq-session-title sq-columns sq-twelve">
+	        		<a href="https://devops.jaxlondon.com/session/kernel-load-balancing-for-docker-containers-using-ipvs/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" rel="bookmark" title="Permanent Link to Kernel load-balancing for Docker containers using IPVS" target="_blank">
+	        			Kernel load-balancing for Docker containers using IPVS	        		</a>
+	        	</h3>
+        	        	    <div class="sq-speakers-name-and-company sq-column sq-twelve">
+        	       	<a class="sands-sq-speakers-infos" href="https://devops.jaxlondon.com/speaker/andrey-sibiryov/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank">Andrey Sibiryov</a> (<em class="sands-sq-speakers-infos">Uber Technologies, Inc.</em>)
+        	    </div>
+                    	</div>
+		</div>
+			<div class="sq-session-block sq-columns sq-twelve">
+        	<div class="sq-two sq-columns">
+        		        		<div class="sq-speakers-image-small">
+	        			<div class="sq-gdlr-session-thumbnail-wrapper sq-twelve sq-columns"><a href="https://devops.jaxlondon.com/speaker/mark-rendle/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"></a><div class="gdlr-speaker-thumbnail"><a href="https://devops.jaxlondon.com/speaker/mark-rendle/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"><img src="a_data_002/5677f257049a8c485e19a09fversion33sizefull-150x150.jpg" alt="" height="150" width="150"></a><a class="gdlr-speaker-thumbnail-overlay-link" href=""><span class="gdlr-speaker-thumbnail-overlay"></span></a></div></div>	        		</div>
+	        	        	</div>
+        	<div class="sq-ten sq-columns">
+	        	<h3 class="sq-session-title sands-sq-session-title sq-columns sq-twelve">
+	        		<a href="https://devops.jaxlondon.com/session/refactoring-an-asp-netiis-monolith-to-composable-polyglot-docker-hosted-mini-services/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" rel="bookmark" title="Permanent Link to Refactoring an ASP.NET/IIS monolith to composable polyglot Docker-hosted mini-services" target="_blank">
+	        			Refactoring an ASP.NET/IIS monolith to composable polyglot Docker-hosted mini-services	        		</a>
+	        	</h3>
+        	        	    <div class="sq-speakers-name-and-company sq-column sq-twelve">
+        	       	<a class="sands-sq-speakers-infos" href="https://devops.jaxlondon.com/speaker/mark-rendle/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank">Mark Rendle</a> (<em class="sands-sq-speakers-infos">CloudLens</em>)
+        	    </div>
+                    	</div>
+		</div>
+			<div class="sq-session-block sq-columns sq-twelve">
+        	<div class="sq-two sq-columns">
+        		        		<div class="sq-speakers-image-small">
+	        			<div class="sq-gdlr-session-thumbnail-wrapper sq-twelve sq-columns"><a href="https://devops.jaxlondon.com/speaker/liam-bennett/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"></a><div class="gdlr-speaker-thumbnail"><a href="https://devops.jaxlondon.com/speaker/liam-bennett/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank"><img src="a_data_002/5677f257049a8c485e19a0a0version33sizefull-150x150.jpg" alt="" height="150" width="150"></a><a class="gdlr-speaker-thumbnail-overlay-link" href=""><span class="gdlr-speaker-thumbnail-overlay"></span></a></div></div>	        		</div>
+	        	        	</div>
+        	<div class="sq-ten sq-columns">
+	        	<h3 class="sq-session-title sands-sq-session-title sq-columns sq-twelve">
+	        		<a href="https://devops.jaxlondon.com/session/everything-is-an-orchestration-problem/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" rel="bookmark" title="Permanent Link to Everything is an orchestration problem" target="_blank">
+	        			Everything is an orchestration problem	        		</a>
+	        	</h3>
+        	        	    <div class="sq-speakers-name-and-company sq-column sq-twelve">
+        	       	<a class="sands-sq-speakers-infos" href="https://devops.jaxlondon.com/speaker/liam-bennett/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" target="_blank">Liam Bennett</a> (<em class="sands-sq-speakers-infos">OpenTable</em>)
+        	    </div>
+                    	</div>
+		</div>
+	
+<li id="text-13" class="widget widget_text">			<div class="textwidget"><div class="button-link-to-website sands-sq-feed-button"><a href="https://devops.jaxlondon.com/?utm_medium=banner&amp;utm_source=jaxenter.com&amp;utm_campaign=jaxdevops_sands&amp;utm_term=sidebar_sessionbox" class="button " target="_blank">JAX DevOps Program</a></div></div>
+		</li>    
+  
+  </body></html>

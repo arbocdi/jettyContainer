@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>kg.megacom.as.jettycontainer.testapp.HelloServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DBServlet</servlet-name>
+        <servlet-class>kg.megacom.as.jettycontainer.testapp.DBServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>JNDIPrinter</servlet-name>
+        <servlet-class>kg.megacom.as.jettycontainer.testapp.JNDIPrinter</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DBServlet</servlet-name>
+        <url-pattern>/helloDB</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>JNDIPrinter</servlet-name>
+        <url-pattern>/jprinter</url-pattern>
+    </servlet-mapping>
+    <!-- Define the JSF listener class when using the Jetty Maven Plugin 
+    with Jetty8 -->
+    <!--
+    <listener>
+        <listener-class>org.apache.myfaces.webapp.StartupServletContextListener</listener-class>
+    </listener>
+    -->
+    <listener>
+        <listener-class>com.sun.faces.config.ConfigureListener</listener-class>
+    </listener>
+
+    <!-- Define the JSF servlet (manages the request processing lifecycle 
+    forJavaServer) -->
+    <servlet>
+        <servlet-name>faces</servlet-name>
+        <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- Map following files to the JSF servlet -->
+    <servlet-mapping>
+        <servlet-name>faces</servlet-name>
+        <url-pattern>*.xhtml</url-pattern>
+    </servlet-mapping>
+</web-app>
